@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool_carpets"
+    }
+  },
+  "result": {
+    "item": "minecraft:string"
+  }
+}

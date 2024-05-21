@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "deestweaks",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "contact": {
+        "sources": "https://github.com/DeeChael/DeesTweaks"
+    },
+    "license": "${license}",
+    "icon": "assets/deestweaks/logo.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.deechael.tweaks.fabric.DeesTweaksFabric"
+        ]
+    },
+    "mixins": [
+        "${mod_id}.mixins.json",
+        "${mod_id}.fabric.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=17"
+    }
+}
+  
